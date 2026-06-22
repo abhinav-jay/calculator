@@ -82,6 +82,7 @@ jobs:
             hugo-
       - name: Build the site
         run: |
+          cd site/ \
           hugo build \
             --gc \
             --minify \
